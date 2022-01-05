@@ -1,0 +1,28 @@
+
+<h3>Agregar</h3>
+        <hr>
+
+        <!--<form (submit)="agregar($event)">--><!--enviamos el evento que estamos ejecutando-->
+        <form (ngSubmit)="agregar()"> <!--ngSubmit lo importamos de FormsModule-->
+            <!--<input 
+                type="text" 
+                placeholder="Nombre"
+                [value]="nuevo.nombre"
+                (input)="cambiarNombre($event)"
+                />-->
+            <input 
+                type="text"
+                placeholder="Nombre"
+                [(ngModel)]="nuevo.nombre"
+                name="nombre"/>
+            <!--
+                <input 
+                type="number"
+                placeholder="Poder"
+                [value]="nuevo.poder"/> --><!--one way databindings, del typescript a la vista
+            -->
+            <input type="text" placeholder="Poder"
+            [(ngModel)]="nuevo.poder"
+            name="poder"/>
+            <button>Agregar</button>
+        </form>

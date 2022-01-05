@@ -1,0 +1,27 @@
+<p>Listado de Héroes</p>
+
+<ul>
+    <li>{{heroes[0]}}</li> <!--Para acceder al primero.-->
+</ul>
+
+<p>Directiva *ngFor</p>
+<ul>
+    <li *ngFor="let heroe of heroes; let i = index">
+        {{heroe}} - posición 
+        {{i+1}}
+    </li>
+</ul>
+
+<h3 *ngIf="heroeBorrado;else noBorrado">Heroe borrado: </h3> <!--noBorrado es una referencia al template-->
+<span>{{heroeBorrado}}</span>
+
+<ng-template #noBorrado>
+    <h3>No ha borrado nada!</h3>
+
+</ng-template>
+
+
+<br/>
+<button (click)="borrarHeroe()">Borrar héroe</button>
+
+

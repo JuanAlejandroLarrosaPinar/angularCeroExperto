@@ -1,0 +1,67 @@
+<div class="text-layout">
+    <h1>Pipes básicos</h1>
+    <p>
+        Pipes incluídos en Angular - usualmente en el Common Module.
+    </p>
+</div>
+
+<div class="p-grid">
+    <div class="p-col-4">
+        <p-card header="Uppercase"
+         [subheader]="nombreLower | uppercase">
+            {{nombreLower | uppercase}}
+        </p-card>
+    </div>
+    <div class="p-col-4">
+        <p-card header="lowercase"
+        [subheader]="nombreUpper | lowercase">
+            {{nombreUpper | lowercase}}
+        </p-card>
+    </div>
+    <div class="p-col-4">
+        <p-card header="titleclase"
+        [subheader]="nombreCompleto | titlecase">
+        {{nombreCompleto | titlecase}}
+        </p-card>
+    </div>
+</div>
+
+<div class="text-layout">
+    <h1>Pipes date</h1>
+    <p>
+        Pipes para mostrar las fechas
+    </p>
+</div>
+
+<div class="p-grid">
+    <div class="p-col-6">
+        <p-card>
+            <ul><li>Fecha</li></ul>
+            <ul><li>Fecha | date</li></ul>
+            <ul><li>Fecha | date:'short'</li></ul>
+            <ul><li>Fecha | date:'long'</li></ul>
+            <ul><li>Fecha | date:'dd/MM/yyyy'</li></ul>
+            <ul><li>Fecha | date:'dd/MM/yyyy HH:mm:ss'</li></ul>
+            
+            <hr/>
+            <ul><li>Fecha | date:'long' : 'GMT+1'</li></ul>
+            <ul><li>Fecha | date:'long' : '' : 'FR'</li></ul>
+            
+        </p-card>
+    </div>
+
+    <div class="p-col-6">
+        <p-card>
+            <ul><li>{{fecha}}</li></ul>
+            <ul><li>{{fecha | date}}</li></ul>
+            <ul><li>{{fecha | date : 'short'}}</li></ul>
+            <ul><li>{{fecha | date : 'long'}}</li></ul>
+            <ul><li>{{fecha | date : 'dd/MM/yyyy'}}</li></ul>
+            <ul><li>{{fecha | date : 'dd/MM/yyyy HH:mm:ss'}}</li></ul>
+            <hr>
+            <ul><li>{{fecha | date : 'long': 'GMT+1'}}</li></ul>
+            <ul><li>{{fecha | date : 'long': '':'FR'}}</li></ul>
+        </p-card>
+    </div>
+    
+</div>
