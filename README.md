@@ -51,24 +51,24 @@
   ![image](https://user-images.githubusercontent.com/55620393/147765318-4724683c-44d3-46f6-be36-4e5760f8931e.png)
   ![image](https://user-images.githubusercontent.com/55620393/147765331-1b2fe52f-f7ac-4c7b-9535-961ee949590d.png)
  
-# Creación de la aplicación.
+# Notas y comandos
+## Creación de la aplicación.
 ng new bases
 
-# Levantar la aplicación.
+## Levantar la aplicación.
 ng serve -o
 
-# Crear componente por línea de comandos. Para no crear la clase con test se debe añadir --skipTests
+## Crear componente por línea de comandos. Para no crear la clase con test se debe añadir --skipTests
 ng g c listado
 
-
-# Crear módulo.
+## Crear módulo.
 ng g m dbz
 
-# Ciclo de vida de un componente.
+## Ciclo de vida de un componente.
 - Constructor
 - On init : se utiliza para inicializar datos.
 
-# @Input, @Output y servicios
+## @Input, @Output y servicios
 - Con @Input es para enviar información del padre al hijo
   ·main-page.component.html:
     <app-personajes [personajes]="personajes"></app-personajes>. Le estamos diciendo que la variable personajes del hijo (el que tiene @Input) se rellena con la variable personajes (del padre)
@@ -86,7 +86,7 @@ ng g m dbz
     return this.dbzService.personajes;
   }
 
-# Explicación ficheros.
+## Explicación ficheros.
 Los json son ficheros de configuración
 - tslint.json: reglas que nos obligan a programar de cierta manera. ts viene de typescript.
 - tsconfig.json: fichero de configuración de typescript para compilar a typescript (no se suele tocar)
@@ -101,5 +101,5 @@ Los json son ficheros de configuración
 - editorconfig: para identar o para establecer la configuración del IDE.
 - e2e_ testing.
 
-# Generar compilado para desplegar.
+## Generar compilado para desplegar.
 ng build --prod
