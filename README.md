@@ -1,4 +1,4 @@
-## Secciones completadas
+# Secciones completadas
 - [x] Sección 1 (5/5) 
 - [x] Sección 2 (4/4)
 - [x] Sección 3 (20/20)
