@@ -103,3 +103,6 @@ Los json son ficheros de configuración
 
 ## Generar compilado para desplegar.
 ng build --prod
+
+## Levantar servidor node para fichero json (teniendo en cuenta que el fichero está en 05-heroesServer):
+ json-server --watch db.json
