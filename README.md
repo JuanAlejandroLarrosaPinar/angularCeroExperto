@@ -50,7 +50,15 @@
   ![image](https://user-images.githubusercontent.com/55620393/147765263-620f1ca5-527b-4866-8b15-272fa8462b3d.png)
   ![image](https://user-images.githubusercontent.com/55620393/147765318-4724683c-44d3-46f6-be36-4e5760f8931e.png)
   ![image](https://user-images.githubusercontent.com/55620393/147765331-1b2fe52f-f7ac-4c7b-9535-961ee949590d.png)
- 
+## 04-heroesApp
+  ![image](https://user-images.githubusercontent.com/55620393/148438953-8494fbe5-f846-4861-a0bb-57bb921ce0f7.png)
+  ![image](https://user-images.githubusercontent.com/55620393/148438970-0149da81-f31a-4494-a18e-d62cc7f67fd2.png)
+  ![image](https://user-images.githubusercontent.com/55620393/148438996-cceb4749-8375-4f80-b475-0e80b7310cc1.png)
+  ![image](https://user-images.githubusercontent.com/55620393/148439020-907dfce6-1b18-40f3-8648-ad5c2c79bff3.png)
+  ![image](https://user-images.githubusercontent.com/55620393/148439040-414b7dc2-a694-4099-9d91-6825148bcf3c.png)
+  ![image](https://user-images.githubusercontent.com/55620393/148439073-1bff1e39-38dd-49df-a739-488cb692d346.png)
+  ![image](https://user-images.githubusercontent.com/55620393/148439092-2c9000c2-dcfc-4a26-b6c1-7babdaeb7fd6.png)
+
 # Notas y comandos
 ## Creación de la aplicación.
 ng new bases
