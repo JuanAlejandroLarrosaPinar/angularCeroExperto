@@ -10,6 +10,8 @@ import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import { MatAutocompleteModule } from "@angular/material/autocomplete";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import {MatSelectModule} from "@angular/material/select";
+
 
 @NgModule({
   declarations: [],
@@ -26,7 +28,8 @@ import {MatInputModule} from "@angular/material/input";
     MatProgressSpinnerModule,
     MatAutocompleteModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
   ]
 })
 export class MaterialModule { }
