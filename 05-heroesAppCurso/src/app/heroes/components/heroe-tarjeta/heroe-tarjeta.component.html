@@ -28,6 +28,11 @@
                 [routerLink]="['/heroes/editar', heroe.id ]">
             Editar
         </button>
+
+        <button mat-button 
+                color="info" (click)="borrarHeroe()">
+            Eliminar
+        </button>
     </mat-card-actions>
 
 </mat-card>

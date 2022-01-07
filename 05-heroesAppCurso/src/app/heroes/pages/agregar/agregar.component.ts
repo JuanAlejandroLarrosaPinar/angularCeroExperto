@@ -115,4 +115,8 @@ export class AgregarComponent implements OnInit {
 
   }
 
+  regresar(): void{
+    this.router.navigate(['/heroes/listado']);
+  }
+
 }

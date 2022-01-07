@@ -19,4 +19,10 @@ export class ListadoComponent implements OnInit {
 
   }
 
+  deleteHeroe(heroe:any){
+    console.log(heroe);
+    const index =this.heroes.indexOf(heroe);
+    this.heroes.splice(index, 1);
+  }
+
 }
