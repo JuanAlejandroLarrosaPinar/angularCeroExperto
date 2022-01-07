@@ -16,22 +16,6 @@
       "characters": "Bruce Wayne"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
-      "id": "dc-flash",
-      "superhero": "Flash",
-      "publisher": "DC Comics",
-      "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
-    },
-    {
       "id": "dc-green",
       "superhero": "Green Lantern",
       "publisher": "DC Comics",
@@ -169,11 +153,12 @@
     },
     {
       "id": "OJ6sfmG",
-      "superhero": "dfdf",
-      "alter_ego": "dfdf",
-      "characters": "dfdf",
-      "first_appearance": "ddfdf",
-      "publisher": "DC Comics"
+      "superhero": "Harry Potter",
+      "alter_ego": "Harry Potter",
+      "characters": "Harry Potter",
+      "first_appearance": "Harry Potter y la piedra filosofal",
+      "publisher": "DC Comics",
+      "alt_img": "https://www.elsoldemexico.com.mx/incoming/vy2ys3-harry-potter.jpg/ALTERNATES/LANDSCAPE_1140/harry-potter.jpg"
     },
     {
       "id": "dc-batma2n",

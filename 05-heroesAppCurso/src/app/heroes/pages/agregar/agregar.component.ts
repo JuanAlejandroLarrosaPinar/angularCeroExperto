@@ -85,16 +85,16 @@ export class AgregarComponent implements OnInit {
   borrarHeroe() {
 
     const dialog = this.dialog.open( ConfirmarComponent, {
-      width: '250px',
+      width: '350px',
       data: this.heroe
     });
 
     dialog.afterClosed().subscribe(
       (result) => {
-
         if( result ) {
           this.heroesService.borrarHeroe( this.heroe.id! )
             .subscribe( resp => {
+              this.mostrarSnakbar('Registro borrado');
               this.router.navigate(['/heroes']);
             });
         }
@@ -108,8 +108,9 @@ export class AgregarComponent implements OnInit {
 
   mostrarSnakbar( mensaje: string ) {
 
-    this.snackBar.open( mensaje, 'ok!', {
-      duration: 2500
+    this.snackBar.open( mensaje, '', {
+      duration: 4500,
+
     });
 
   }
