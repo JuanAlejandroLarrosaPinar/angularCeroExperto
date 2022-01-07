@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Heroe, Publisher } from '../../interface/Heroe';
 import { HeroesService } from '../../services/heroes.service';
 import {switchMap  } from "rxjs/operators";
@@ -34,15 +34,21 @@ export class AgregarComponent implements OnInit {
 
   edicion: boolean=false;
 
-  constructor(private heroeService: HeroesService, private activatedRoute: ActivatedRoute) {
-    this.activatedRoute.params.pipe(
-      switchMap(({id})=>this.heroeService.obtenerHeroe(id))
-    ).subscribe(h=>
-     {
-       this.heroe=h;
-       this.edicion=true;
-     }
-    )
+  constructor(private heroeService: HeroesService, private activatedRoute: ActivatedRoute,
+    private router: Router) {
+    if(this.router.url.includes('editar')){
+      this.activatedRoute.params.pipe(
+        switchMap(({id})=>this.heroeService.obtenerHeroe(id))
+      ).subscribe(h=>
+       {
+         this.heroe=h;
+         this.edicion=true;
+       }
+      )
+    }else{
+      return ;
+    }
+    
       
     
    }
