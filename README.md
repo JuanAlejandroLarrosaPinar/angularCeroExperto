@@ -67,10 +67,16 @@ ng new bases
 ng serve -o
 
 ## Crear componente por línea de comandos. Para no crear la clase con test se debe añadir --skipTests
-ng g c listado
+ng g c listado --skipTests -is
 
 ## Crear módulo.
 ng g m dbz
+
+## Crear servicio
+ng g s nombreServicio --skipTests
+
+## Crear guard
+ng g guard auth/guards/nombreAuth
 
 ## Ciclo de vida de un componente.
 - Constructor

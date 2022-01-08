@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
+import { map, tap } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 import { Auth } from '../interfaces/auth.interface';
 
@@ -24,6 +24,7 @@ export class AuthService {
     pipe(tap(resp=>{
       console.log(resp);
       this._auth = resp;
+      localStorage.setItem('token', resp.id);
     }
       
     ));
@@ -32,5 +33,19 @@ export class AuthService {
 
   logout(){
     this._auth=undefined;
+  }
+
+  verificaAutenticacion(): Observable<boolean>{
+    if(!localStorage.getItem('token')){
+      return of(false);
+    }
+    return this.http.get<Auth>(`${this.baseUrl}/usuarios/1`).
+    pipe(
+      map(auth=>{
+        console.log('map', auth);
+        this._auth=auth;
+        return true;
+      })
+    )
   }
 }
