@@ -27,4 +27,9 @@ export class LoginComponent implements OnInit {
     
   }
 
+  loginSinLogin(){
+    this.authService.logout();
+    this.router.navigate(['/heroes/']);
+  }
+
 }
