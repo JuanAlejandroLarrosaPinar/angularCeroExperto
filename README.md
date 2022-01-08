@@ -13,7 +13,7 @@
 - [x] Sección 12 (11/11)
 - [x] Sección 13 (22/22)
 - [x] Sección 14 (15/15)
-- [ ] Sección 15 (0/10)
+- [x] Sección 15 (10/10)
 - [ ] Sección 16 (0/20)
 - [ ] Sección 17 (0/16)
 - [ ] Sección 18 (0/16)
