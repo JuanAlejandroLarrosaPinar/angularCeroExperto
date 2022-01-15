@@ -1,32 +1,32 @@
 # Secciones completadas
-- [x] Sección 1 (5/5) - PRIORITARIO
-- [x] Sección 2 (4/4) - PRIORITARIO
-- [x] Sección 3 (20/20) - PRIORITARIO
-- [x] Sección 4 (23/23) - PRIORITARIO
-- [x] Sección 5 (17/17) - PRIORITARIO
-- [x] Sección 6 (4/4) - PRIORITARIO
-- [x] Sección 7 (20/20) - PRIORITARIO
-- [x] Sección 8 (25/25) - PRIORITARIO
-- [x] Sección 9 (11/11) - PRIORITARIO
-- [ ] Sección 10 (17/28) 
-- [ ] Sección 11 (0/12)
-- [x] Sección 12 (11/11) - PRIORITARIO
-- [x] Sección 13 (22/22) - PRIORITARIO
-- [x] Sección 14 (15/15) - PRIORITARIO
-- [x] Sección 15 (10/10) - PRIORITARIO
-- [ ] Sección 16 (8/20) - PRIORITARIO
-- [ ] Sección 17 (0/16) - PRIORITARIO
-- [ ] Sección 18 (0/16) - PRIORITARIO
-- [ ] Sección 19 (0/14) - PRIORITARIO
-- [ ] Sección 20 (0/9 ) - PRIORITARIO
-- [ ] Sección 21 (0/24) - NO PRIORITARIO (MAPAS)
-- [ ] Sección 22 (0/16) - NO PRIORITARIO (GRÁFICAS)
-- [ ] Sección 23 (0/14) - PRIORITARIO
-- [ ] Sección 24 (0/25) - PRIORITARIO
-- [ ] Sección 25 (0/19) - PRIORITARIO
-- [ ] Sección 26 (0/7) - PRIORITARIO
-- [ ] Sección 27 (0/23) - NO PRIORITARIO (BONUS MAPAS)
-- [ ] Sección 28 (0/3 ) - NO PRIORITARIO (FIN DEL CURSO)
+- [x] Sección 1 (5/5) - PRIORITARIO - Introducción al curso
+- [x] Sección 2 (4/4) - PRIORITARIO - Conceptos básicos angular y typescript
+- [x] Sección 3 (20/20) - PRIORITARIO - Base de typescript
+- [x] Sección 4 (23/23) - PRIORITARIO - Introducción a angular
+- [x] Sección 5 (17/17) - PRIORITARIO - Expendiendo bases
+- [x] Sección 6 (4/4) - PRIORITARIO - Despliegues rápidos a producción
+- [x] Sección 7 (20/20) - PRIORITARIO - Gifs App - App para buscar imágenes.
+- [x] Sección 8 (25/25) - PRIORITARIO - Paises app. 
+- [x] Sección 9 (11/11) - PRIORITARIO - Continuación paises App - sugerencias, debounce y demás.
+- [ ] Sección 10 (17/28) - NO PRIORITARIO - Pipes propios de ángular.
+- [ ] Sección 11 (0/12) - NO PRIORITARIO - Pipes personalizados.
+- [x] Sección 12 (11/11) - PRIORITARIO - Heroes app - rutas hijas, lazyload.
+- [x] Sección 13 (22/22) - PRIORITARIO - Heroes app - Angular material & angular flex-layout
+- [x] Sección 14 (15/15) - PRIORITARIO - Heroes app - CRUD (Continuación con angular material).
+- [x] Sección 15 (10/10) - PRIORITARIO - Protección de rutas
+- [ ] Sección 16 (11/20) - PRIORITARIO - Formularios - Template y lazyload
+- [ ] Sección 17 (0/16) - PRIORITARIO - Formularios reactivos
+- [ ] Sección 18 (0/16) - PRIORITARIO - Formularios: Validaciones manuales y asíncronas.
+- [ ] Sección 19 (0/14) - PRIORITARIO - Formularios reactivos: Múltiples selectores anidados.
+- [ ] Sección 20 (0/9 ) - PRIORITARIO - LifeCycle Hooks.
+- [ ] Sección 21 (0/24) - NO PRIORITARIO  - Mapas en ángular
+- [ ] Sección 22 (0/16) - NO PRIORITARIO - Gráficas en angular
+- [ ] Sección 23 (0/14) - PRIORITARIO - Directivas personalizadas de angular
+- [ ] Sección 24 (0/25) - PRIORITARIO - Auth backend - MEAN
+- [ ] Sección 25 (0/19) - PRIORITARIO - AuthApp - MEAN
+- [ ] Sección 26 (0/7) - PRIORITARIO - Desplegar backend y frontend a producción
+- [ ] Sección 27 (0/23) - NO PRIORITARIO - Bonus mapas - Marcadores y direcciones de mapbox
+- [ ] Sección 28 (0/3 ) - NO PRIORITARIO - Fin del curso.
 
 # Capturas
 
