@@ -5,6 +5,7 @@ import { TemplateRoutingModule } from './template-routing.module';
 import { DinamicosComponent } from './dinamicos/dinamicos.component';
 import { BasicosComponent } from './basicos/basicos.component';
 import { SwitchesComponent } from './switches/switches.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { SwitchesComponent } from './switches/switches.component';
   ],
   imports: [
     CommonModule,
+    FormsModule, //esto hace que el submit no haga el refresh de la página
     TemplateRoutingModule
   ]
 })

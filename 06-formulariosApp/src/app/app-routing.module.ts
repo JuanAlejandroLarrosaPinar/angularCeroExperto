@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'reactive',
     loadChildren: () => import('./reactive/reactive.module').then(m=>ReactiveModule)
+  },
+  {
+    path: '**',
+    redirectTo: 'template'
   }
 ]
 @NgModule({
