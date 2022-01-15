@@ -1,32 +1,32 @@
 # Secciones completadas
-- [x] Sección 1 (5/5) 
-- [x] Sección 2 (4/4)
-- [x] Sección 3 (20/20)
-- [x] Sección 4 (23/23)
-- [x] Sección 5 (17/17)
-- [x] Sección 6 (4/4)
-- [x] Sección 7 (20/20)
-- [x] Sección 8 (25/25)
-- [x] Sección 9 (11/11)
-- [ ] Sección 10 (17/28)
+- [x] Sección 1 (5/5) - PRIORITARIO
+- [x] Sección 2 (4/4) - PRIORITARIO
+- [x] Sección 3 (20/20) - PRIORITARIO
+- [x] Sección 4 (23/23) - PRIORITARIO
+- [x] Sección 5 (17/17) - PRIORITARIO
+- [x] Sección 6 (4/4) - PRIORITARIO
+- [x] Sección 7 (20/20) - PRIORITARIO
+- [x] Sección 8 (25/25) - PRIORITARIO
+- [x] Sección 9 (11/11) - PRIORITARIO
+- [ ] Sección 10 (17/28) 
 - [ ] Sección 11 (0/12)
-- [x] Sección 12 (11/11)
-- [x] Sección 13 (22/22)
-- [x] Sección 14 (15/15)
-- [x] Sección 15 (10/10)
-- [ ] Sección 16 (0/20)
-- [ ] Sección 17 (0/16)
-- [ ] Sección 18 (0/16)
-- [ ] Sección 19 (0/14)
-- [ ] Sección 20 (0/9 )
-- [ ] Sección 21 (0/24)
-- [ ] Sección 22 (0/16)
-- [ ] Sección 23 (0/14)
-- [ ] Sección 24 (0/25)
-- [ ] Sección 25 (0/19)
-- [ ] Sección 26 (0/7)
-- [ ] Sección 27 (0/23)
-- [ ] Sección 28 (0/3 )
+- [x] Sección 12 (11/11) - PRIORITARIO
+- [x] Sección 13 (22/22) - PRIORITARIO
+- [x] Sección 14 (15/15) - PRIORITARIO
+- [x] Sección 15 (10/10) - PRIORITARIO
+- [ ] Sección 16 (8/20) - PRIORITARIO
+- [ ] Sección 17 (0/16) - PRIORITARIO
+- [ ] Sección 18 (0/16) - PRIORITARIO
+- [ ] Sección 19 (0/14) - PRIORITARIO
+- [ ] Sección 20 (0/9 ) - PRIORITARIO
+- [ ] Sección 21 (0/24) - NO PRIORITARIO (MAPAS)
+- [ ] Sección 22 (0/16) - NO PRIORITARIO (GRÁFICAS)
+- [ ] Sección 23 (0/14) - PRIORITARIO
+- [ ] Sección 24 (0/25) - PRIORITARIO
+- [ ] Sección 25 (0/19) - PRIORITARIO
+- [ ] Sección 26 (0/7) - PRIORITARIO
+- [ ] Sección 27 (0/23) - NO PRIORITARIO (BONUS MAPAS)
+- [ ] Sección 28 (0/3 ) - NO PRIORITARIO (FIN DEL CURSO)
 
 # Capturas
 
