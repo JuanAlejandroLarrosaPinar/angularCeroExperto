@@ -8,9 +8,15 @@ const routes: Routes = [
   {
     path:'',
     children:[
-      {path:'basicos',component: BasicosComponent},
-      {path:'dinamicos',component: DinamicosComponent},
-      {path:'switches',component: SwitchesComponent},
+      {
+        path: 'basicos', component: BasicosComponent
+      },
+      {
+        path: 'dinamicos', component: DinamicosComponent
+      },
+      {
+        path:'switches', component: SwitchesComponent
+      }
     ]
   }
 ];
@@ -19,4 +25,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class TemplateRoutingModule { }
+export class ReactiveRoutingModule { }
