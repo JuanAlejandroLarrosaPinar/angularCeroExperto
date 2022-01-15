@@ -27,7 +27,6 @@
 - [ ] Sección 26 (0/7) - PRIORITARIO - Desplegar backend y frontend a producción
 - [ ] Sección 27 (0/23) - NO PRIORITARIO - Bonus mapas - Marcadores y direcciones de mapbox
 - [ ] Sección 28 (0/3 ) - NO PRIORITARIO - Fin del curso.
-hola \textcolor{red}{red} hola
 
 # Capturas
 
