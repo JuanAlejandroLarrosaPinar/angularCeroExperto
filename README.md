@@ -14,7 +14,7 @@
 - [x] Sección 13 (22/22) - PRIORITARIO - Heroes app - Angular material & angular flex-layout
 - [x] Sección 14 (15/15) - PRIORITARIO - Heroes app - CRUD (Continuación con angular material).
 - [x] Sección 15 (10/10) - PRIORITARIO - Protección de rutas
-- [ ] Sección 16 (11/20) - PRIORITARIO - Formularios - Template y lazyload
+- [ ] Sección 16 (15/20) - PRIORITARIO - Formularios - Template y lazyload
 - [ ] Sección 17 (0/16) - PRIORITARIO - Formularios reactivos
 - [ ] Sección 18 (0/16) - PRIORITARIO - Formularios: Validaciones manuales y asíncronas.
 - [ ] Sección 19 (0/14) - PRIORITARIO - Formularios reactivos: Múltiples selectores anidados.
