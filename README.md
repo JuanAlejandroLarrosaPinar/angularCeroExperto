@@ -50,6 +50,7 @@
   ![image](https://user-images.githubusercontent.com/55620393/147765263-620f1ca5-527b-4866-8b15-272fa8462b3d.png)
   ![image](https://user-images.githubusercontent.com/55620393/147765318-4724683c-44d3-46f6-be36-4e5760f8931e.png)
   ![image](https://user-images.githubusercontent.com/55620393/147765331-1b2fe52f-f7ac-4c7b-9535-961ee949590d.png)
+  
 ## 05-heroesAppCurso (esta es la versión del curso ya que en mi versión (05-heroesApp) no funcionaban ciertas cosas).
   ![image](https://user-images.githubusercontent.com/55620393/148438953-8494fbe5-f846-4861-a0bb-57bb921ce0f7.png)
   ![image](https://user-images.githubusercontent.com/55620393/148438970-0149da81-f31a-4494-a18e-d62cc7f67fd2.png)
@@ -67,6 +68,11 @@
   ![image](https://user-images.githubusercontent.com/55620393/148650321-6b23656b-2b00-4fe4-8dfd-60a7dd512395.png)
   ![image](https://user-images.githubusercontent.com/55620393/148650330-e8448c04-f9be-4612-b7b7-980dcaf8cc56.png)
   ![image](https://user-images.githubusercontent.com/55620393/148650334-41354ace-3c55-4860-91c3-0d7294fa0fc5.png)
+  
+## 06-formulariosApp
+![image](https://user-images.githubusercontent.com/55620393/149670337-d1b7ddfe-fb92-4a97-80c7-f4df1ef3a96c.png)
+![image](https://user-images.githubusercontent.com/55620393/149670356-37b09fb9-f5d1-48d8-8cde-ecf1b8b550e5.png)
+![image](https://user-images.githubusercontent.com/55620393/149670362-b5f59e9f-5748-40f2-a7c6-5927276edceb.png)
 
 # Notas y comandos
 ## Creación de la aplicación.
