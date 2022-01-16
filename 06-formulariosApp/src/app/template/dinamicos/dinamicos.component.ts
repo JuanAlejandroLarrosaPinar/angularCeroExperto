@@ -32,6 +32,7 @@ export class DinamicosComponent implements OnInit {
 
   guardar(){
     console.log('Formulario posteado');
+    
   }
 
 }
