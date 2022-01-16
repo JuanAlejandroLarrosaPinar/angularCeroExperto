@@ -25,6 +25,18 @@ export class DinamicosComponent implements OnInit {
     ]
   }
 
+  nuevoJuego:string='';
+
+  agregarJuego(){
+    const nuevoFavorito: Favorito={
+      nombre:this.nuevoJuego,
+      id:this.persona.favoritos.length+1
+    }
+
+    this.persona.favoritos.push({...nuevoFavorito});
+    this.nuevoJuego='';
+  }
+
   constructor() { }
 
   ngOnInit(): void {
@@ -33,6 +45,10 @@ export class DinamicosComponent implements OnInit {
   guardar(){
     console.log('Formulario posteado');
     
+  }
+
+  eliminar(index:number){
+    this.persona.favoritos.splice(index,1);
   }
 
 }
