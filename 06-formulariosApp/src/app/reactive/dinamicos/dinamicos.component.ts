@@ -51,7 +51,6 @@ export class DinamicosComponent implements OnInit {
 
     //this.favoritosArr.push(new FormControl(this.nuevoFavorito.value));
     this.favoritosArr.push(this.fb.control(this.nuevoFavorito.value,Validators.required));
-
     this.nuevoFavorito.reset();
 
   }
