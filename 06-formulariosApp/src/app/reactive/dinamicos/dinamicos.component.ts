@@ -60,6 +60,8 @@ export class DinamicosComponent implements OnInit {
      && this.miFormulario.controls[campo].touched;
   }
 
-
+  eliminar(i:any){
+    this.favoritosArr.removeAt(i);
+  }
 
 }
