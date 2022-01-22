@@ -1,9 +1,8 @@
 const {response, request} = require('express');
-//const bodyParser = require('body-parser');
+const { validationResult } = require('express-validator');
+
 
 const crearUsuario =(req = request, res = response)=>{
-
-    
     const{ name, email,password} = req.body;
     console.log(name,email,password);
     //se puede añadir return del tipo return res.json({ok: true,msg: 'Crear usuario /new'})
@@ -14,10 +13,9 @@ const crearUsuario =(req = request, res = response)=>{
 };
 
 const loginUsuario = (req, res)=>{
-
     const {email,password} = req.body;
     console.log(email,password);
-    res.json({
+    return res.json({
         ok: true,
         msg: 'Login usuario /'
     })
