@@ -22,7 +22,7 @@
 - [ ] Sección 21 (0/24) - NO PRIORITARIO  - Mapas en ángular
 - [ ] Sección 22 (0/16) - NO PRIORITARIO - Gráficas en angular
 - [ ] Sección 23 (0/14) - PRIORITARIO - Directivas personalizadas de angular
-- [ ] Sección 24 (0/25) - PRIORITARIO - Auth backend - MEAN
+- [ ] Sección 24 (10/25) - PRIORITARIO - Auth backend - MEAN
 - [ ] Sección 25 (0/19) - PRIORITARIO - AuthApp - MEAN
 - [ ] Sección 26 (0/7) - PRIORITARIO - Desplegar backend y frontend a producción
 - [ ] Sección 27 (0/23) - NO PRIORITARIO - Bonus mapas - Marcadores y direcciones de mapbox
@@ -135,3 +135,6 @@ ng build --prod
 
 ## Levantar servidor node para fichero json (teniendo en cuenta que el fichero está en 05-heroesServer):
  json-server --watch db.json
+
+## Crear proyecto de node 
+npm init
