@@ -1,4 +1,6 @@
+const bcrypt = require('bcryptjs/dist/bcrypt');
 const {response, request} = require('express');
+const { generarJWT } = require('../helpers/jwt');
 const Usuario = require('../models/Usuario');
 
 
@@ -18,17 +20,24 @@ const crearUsuario =async (req = request, res = response)=>{
            })
         }else{
             const dbUsuario = new Usuario(req.body);
-            dbUsuario.save();
+            //encriptar pass
+            const salt = bcrypt.genSaltSync();
+            dbUsuario.password = bcrypt.hashSync(password, salt);
+            
+            await dbUsuario.save();
+             //generar jwt
+             const token = await generarJWT(dbUsuario._id,dbUsuario.name);
             return res.status(201).json({
                 ok:true,
                 uid:dbUsuario.id,
-                name
+                name,
+                token
             })
             
         }
-    //encriptar pass
+  
 
-    //generar jwt
+   
 
     //generar respuesta
    
@@ -51,20 +60,51 @@ const crearUsuario =async (req = request, res = response)=>{
     })*/
 };
 
-const loginUsuario = (req, res)=>{
+const loginUsuario = async (req, res)=>{
     const {email,password} = req.body;
-    console.log(email,password);
-    return res.json({
-        ok: true,
-        msg: 'Login usuario /'
-    })
+
+    try{
+        let usuario = await Usuario.findOne({
+            email
+        });
+
+        if(!usuario){
+            return res.status(400).json({
+                ok:false,
+                msg:'El usuario o contraseña son incorrectos'
+            })
+        }else{
+            const validPassword = bcrypt.compareSync(password, usuario.password);
+            if(!validPassword){
+                return res.status(400).json({
+                    ok: false,
+                    msg: 'El password no es válido'
+                });
+            }
+            
+            const token = await generarJWT(usuario._id,usuario.name);
+            return res.status(200).json({
+                ok: true,
+                token
+            })
+        }
+        
+    }catch(err){
+        console.log(err);
+        return res.status(500).json({
+            ok:false,
+            msg:'Hable con el administrador'
+        });
+    }
 };
 
 //validar y renovar token
 const revalidarToken = (req, res)=>{
-    res.json({
+    return res.json({
         ok: true,
-        msg: '/renew'
+        msg: 'Renew',
+        id: req.id,
+        name: req.name
     })
 };
 
