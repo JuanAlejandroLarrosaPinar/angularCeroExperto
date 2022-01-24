@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -12,7 +12,7 @@ import { AuthService } from '../../services/auth.service';
   styles: [
   ]
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit{
 
   miFormulario: FormGroup = this.fb.group({
     email:    ['', [ Validators.required, Validators.email ]],
@@ -22,6 +22,14 @@ export class LoginComponent {
   constructor( private fb: FormBuilder,
                private router: Router, 
                private authService: AuthService) { }
+
+  ngOnInit(): void {
+    this.authService.validarToken().subscribe(respuesta=>{
+      if(respuesta){
+        this.router.navigateByUrl('/dashboard');
+      }
+    })
+  }
 
 
   login() {
