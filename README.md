@@ -23,7 +23,7 @@
 - [ ] Sección 22 (0/16) - NO PRIORITARIO - Gráficas en angular
 - [ ] Sección 23 (0/14) - PRIORITARIO - Directivas personalizadas de angular
 - [x] Sección 24 (25/25) - PRIORITARIO - Auth backend - MEAN
-- [ ] Sección 25 (0/19) - PRIORITARIO - AuthApp - MEAN
+- [x] Sección 25 (19/19) - PRIORITARIO - AuthApp - MEAN
 - [ ] Sección 26 (0/7) - PRIORITARIO - Desplegar backend y frontend a producción
 - [ ] Sección 27 (0/23) - NO PRIORITARIO - Bonus mapas - Marcadores y direcciones de mapbox
 - [ ] Sección 28 (0/3 ) - NO PRIORITARIO - Fin del curso.
@@ -73,6 +73,14 @@
 ![image](https://user-images.githubusercontent.com/55620393/149670337-d1b7ddfe-fb92-4a97-80c7-f4df1ef3a96c.png)
 ![image](https://user-images.githubusercontent.com/55620393/149670356-37b09fb9-f5d1-48d8-8cde-ecf1b8b550e5.png)
 ![image](https://user-images.githubusercontent.com/55620393/149670362-b5f59e9f-5748-40f2-a7c6-5927276edceb.png)
+
+## 12-authApp
+![image](https://user-images.githubusercontent.com/55620393/150853846-b89e7daf-9887-494a-943e-62a1986a7cbc.png)
+![image](https://user-images.githubusercontent.com/55620393/150853902-91f1681f-43f6-44f9-9fe0-f1ce77d3767b.png)
+![image](https://user-images.githubusercontent.com/55620393/150853933-10bd7d96-3ace-4c10-af1c-a6b9b7dfab8c.png)
+![image](https://user-images.githubusercontent.com/55620393/150853959-bc6cf720-02f7-47fa-a058-93b7dc22afb0.png)
+![image](https://user-images.githubusercontent.com/55620393/150853933-10bd7d96-3ace-4c10-af1c-a6b9b7dfab8c.png)
+
 
 # Notas y comandos
 ## Creación de la aplicación.
