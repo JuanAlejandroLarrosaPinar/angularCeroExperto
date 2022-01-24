@@ -5,7 +5,7 @@ const generarJWT = (id, name)=>{
     console.log(id,name+"555");
     return new Promise((resolve, reject)=>{
         jwt.sign(payload,process.env.secretKeyJWT,{
-            expiresIn: ms(100000)
+            expiresIn: ms(10000)
         }, (err, token)=>{
             if(err){
                 console.log(err);
