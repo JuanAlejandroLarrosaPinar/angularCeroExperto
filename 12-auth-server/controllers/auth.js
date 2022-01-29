@@ -6,9 +6,9 @@ const Usuario = require('../models/Usuario');
 
 const crearUsuario =async (req = request, res = response)=>{
     const{ name, email,password} = req.body;
-    console.log(name,email,password);
+    //console.log(name,email,password);
     try{
-    //Verificar email
+        //Verificar email
         let usuario = await Usuario.findOne({
             email
         });
@@ -27,6 +27,7 @@ const crearUsuario =async (req = request, res = response)=>{
             await dbUsuario.save();
              //generar jwt
              const token = await generarJWT(dbUsuario._id,dbUsuario.name);
+             //generar respuesta
             return res.status(201).json({
                 ok:true,
                 uid:dbUsuario.id,
@@ -36,12 +37,7 @@ const crearUsuario =async (req = request, res = response)=>{
             
         }
   
-
-   
-
-    //generar respuesta
-   
-
+    
     }catch(error){
         console.log(error);
         return res.status(500).json({
@@ -49,9 +45,6 @@ const crearUsuario =async (req = request, res = response)=>{
             msg: 'Por favor hable con el administrador'
         })
     }
-
-    
-
 
     //se puede añadir return del tipo return res.json({ok: true,msg: 'Crear usuario /new'})
     /*res.json({

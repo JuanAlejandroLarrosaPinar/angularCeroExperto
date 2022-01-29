@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 let ms = require('ms');
 const generarJWT = (id, name)=>{
     const payload = {id, name};
-    console.log(id,name+"555");
+    
     return new Promise((resolve, reject)=>{
         jwt.sign(payload,process.env.secretKeyJWT,{
             expiresIn: ms(10000)
@@ -13,7 +13,6 @@ const generarJWT = (id, name)=>{
             }else{
                 //TODO BIEN
                 resolve(token);
-                console.log(token);
                 return token;
             }
         });

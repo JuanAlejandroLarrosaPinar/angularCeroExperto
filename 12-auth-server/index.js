@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const { dbConnection } = require('./db/config');
 require('dotenv').config();
+const path = require('path');
 
 // crear el servidor /aplicacion de express
 const app = express();
@@ -29,6 +30,11 @@ app.use(cors());
 //Lectura y parseo del body
 app.use(express.json());
 app.use('/api/auth', require('./routes/auth'));
+
+app.get('*', (req, res)=>{
+    res.sendFile(path.resolve(__dirname, 'public/index.html'));
+})
+
 
 
 
