@@ -24,7 +24,7 @@
 - [ ] Sección 23 (0/14) - PRIORITARIO - Directivas personalizadas de angular
 - [x] Sección 24 (25/25) - PRIORITARIO - Auth backend - MEAN
 - [x] Sección 25 (19/19) - PRIORITARIO - AuthApp - MEAN
-- [ ] Sección 26 (0/7) - PRIORITARIO - Desplegar backend y frontend a producción
+- [x] Sección 26 (7/7) - PRIORITARIO - Desplegar backend y frontend a producción
 - [ ] Sección 27 (0/23) - NO PRIORITARIO - Bonus mapas - Marcadores y direcciones de mapbox
 - [ ] Sección 28 (0/3 ) - NO PRIORITARIO - Fin del curso.
 
