@@ -30,7 +30,7 @@ app.use(cors());
 //Lectura y parseo del body
 app.use(express.json());
 app.use('/api/auth', require('./routes/auth'));
-
+//esto permite que podamos desplegar app angular o cualquier otra en node js.
 app.get('*', (req, res)=>{
     res.sendFile(path.resolve(__dirname, 'public/index.html'));
 })
