@@ -16,7 +16,7 @@
 - [x] Sección 15 (10/10) - PRIORITARIO - Protección de rutas
 - [x] Sección 16 (20/20) - PRIORITARIO - Formularios - Template y lazyload
 - [x] Sección 17 (16/16) - PRIORITARIO - Formularios reactivos
-- [ ] Sección 18 (0/16) - PRIORITARIO - Formularios: Validaciones manuales y asíncronas.
+- [ ] Sección 18 (7/16) - PRIORITARIO - Formularios: Validaciones manuales y asíncronas.
 - [ ] Sección 19 (0/14) - PRIORITARIO - Formularios reactivos: Múltiples selectores anidados.
 - [ ] Sección 20 (0/9 ) - PRIORITARIO - LifeCycle Hooks.
 - [ ] Sección 21 (0/24) - NO PRIORITARIO  - Mapas en ángular

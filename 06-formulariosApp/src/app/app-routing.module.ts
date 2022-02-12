@@ -4,6 +4,7 @@ import { RouterModule,Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { TemplateModule } from './template/template.module';
 import { ReactiveModule } from './reactive/reactive.module';
+import { AuthModule } from './auth/auth.module';
 
 const routes: Routes = [
   {
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path: 'reactive',
     loadChildren: () => import('./reactive/reactive.module').then(m=>ReactiveModule)
+  },
+  {
+    path:'auth',
+    loadChildren: () => import('./auth/auth.module').then(m=>AuthModule)
   },
   {
     path: '**',

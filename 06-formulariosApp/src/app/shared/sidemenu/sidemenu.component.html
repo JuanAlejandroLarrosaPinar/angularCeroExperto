@@ -15,3 +15,11 @@
         {{item.text}}
     </li>
 </ul>
+<h2>Login</h2>
+<hr>   
+<ul class="list-group">
+    <li class="list-group-item"
+     [routerLink]="item.ruta" *ngFor="let item of authMenu" routerLinkActive="active">
+        {{item.text}}
+    </li>
+</ul>
