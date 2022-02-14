@@ -6,7 +6,7 @@
             <label class="form-label">
                 Continente:
             </label>
-            <select class="form-control" formControlName="region" ngch>
+            <select class="form-control" formControlName="region" >
                 <option value="">--Seleccione continene--</option>
                 <option *ngFor="let region of regiones" [value]="region | lowercase">
                     {{region}}
@@ -15,18 +15,41 @@
         </div>
     </div>
 
-    <div class="row mb-3">
+    <div class="row mb-3"  *ngIf="paises.length!==0">
         <div class="col">
             <label class="form-label">
                 Pais:
             </label>
-            <select class="form-control" formControlName="pais" ngch>
+            <select class="form-control" formControlName="pais" >
                 <option value="">--Seleccione pais--</option>
                 <option *ngFor="let pais of paises" [value]="pais.cca3">
                     {{pais?.name?.common}}
                 </option>
             </select>
         </div>
+    </div>
+
+    <div class="row mb-3"  *ngIf="fronteras.length!==0">
+        <div class="col">
+            <label class="form-label">
+                Frontera:
+            </label>
+            <select class="form-control" formControlName="frontera" >
+                <option value="">--Seleccione una frontera--</option>
+                <option *ngFor="let frontera of fronteras">
+                    {{frontera}}
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row" *ngIf="cargando">
+        <div class="col">
+            <div class="alert alert-primary">
+                Cargando...
+            </div>
+        </div>
+
     </div>
 
     <div class="row">

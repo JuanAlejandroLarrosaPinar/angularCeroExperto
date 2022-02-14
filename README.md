@@ -17,7 +17,7 @@
 - [x] Sección 16 (20/20) - PRIORITARIO - Formularios - Template y lazyload
 - [x] Sección 17 (16/16) - PRIORITARIO - Formularios reactivos
 - [x] Sección 18 (16/16) - PRIORITARIO - Formularios: Validaciones manuales y asíncronas.
-- [x] Sección 19 (9/14) - PRIORITARIO - Formularios reactivos: Múltiples selectores anidados. La marco como completada porque visto dos selectores vistos todos.
+- [] Sección 19 (12/14) - PRIORITARIO - Formularios reactivos: Múltiples selectores anidados.
 - [ ] Sección 20 (0/9 ) - PRIORITARIO - LifeCycle Hooks.
 - [ ] Sección 21 (0/24) - NO PRIORITARIO  - Mapas en ángular
 - [ ] Sección 22 (0/16) - NO PRIORITARIO - Gráficas en angular
