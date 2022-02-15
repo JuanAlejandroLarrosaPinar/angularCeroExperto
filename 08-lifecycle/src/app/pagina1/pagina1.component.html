@@ -1,0 +1,14 @@
+<p>pagina1 works!</p>
+<input type="text" placeholder="Hola mundo"
+[(ngModel)]="nombre"
+/><!--Al hacer modificaciones sobre el input, se llama a ngDoCheck, ngAfterContentChecked, ngAterViewChecked-->
+
+<button
+(click)="guardar()"
+>Click</button> <!--Al llamar a click se llama a ngDoCheck, ngAfterContentChecked, ngAterViewChecked-->
+
+
+<app-muestra-nombre-component [nombre]="'alejandro'"></app-muestra-nombre-component>
+
+
+<h1>Segundos: {{segundos}}</h1>

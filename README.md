@@ -8,8 +8,8 @@
 - [x] Sección 7 (20/20) - PRIORITARIO - Gifs App - App para buscar imágenes.
 - [x] Sección 8 (25/25) - PRIORITARIO - Paises app. 
 - [x] Sección 9 (11/11) - PRIORITARIO - Continuación paises App - sugerencias, debounce y demás.
-- [ ] Sección 10 (17/28) - NO PRIORITARIO - Pipes propios de ángular.
-- [ ] Sección 11 (0/12) - NO PRIORITARIO - Pipes personalizados.
+- [ ] Sección 10 (17/28) - PRIORITARIO - Pipes propios de ángular.
+- [ ] Sección 11 (0/12)  -  PRIORITARIO - Pipes personalizados.
 - [x] Sección 12 (11/11) - PRIORITARIO - Heroes app - rutas hijas, lazyload.
 - [x] Sección 13 (22/22) - PRIORITARIO - Heroes app - Angular material & angular flex-layout
 - [x] Sección 14 (15/15) - PRIORITARIO - Heroes app - CRUD (Continuación con angular material).
@@ -18,7 +18,7 @@
 - [x] Sección 17 (16/16) - PRIORITARIO - Formularios reactivos
 - [x] Sección 18 (16/16) - PRIORITARIO - Formularios: Validaciones manuales y asíncronas.
 - [x] Sección 19 (14/14) - PRIORITARIO - Formularios reactivos: Múltiples selectores anidados.
-- [ ] Sección 20 (0/9 ) - PRIORITARIO - LifeCycle Hooks.
+- [x] Sección 20 (9/9) - PRIORITARIO - LifeCycle Hooks.
 - [ ] Sección 21 (0/24) - NO PRIORITARIO  - Mapas en ángular
 - [ ] Sección 22 (0/16) - NO PRIORITARIO - Gráficas en angular
 - [ ] Sección 23 (0/14) - PRIORITARIO - Directivas personalizadas de angular
