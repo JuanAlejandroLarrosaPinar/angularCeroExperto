@@ -8,7 +8,7 @@
 - [x] Sección 7 (20/20) - PRIORITARIO - Gifs App - App para buscar imágenes.
 - [x] Sección 8 (25/25) - PRIORITARIO - Paises app. 
 - [x] Sección 9 (11/11) - PRIORITARIO - Continuación paises App - sugerencias, debounce y demás.
-- [ ] Sección 10 (17/28) - PRIORITARIO - Pipes propios de ángular.
+- [ ] Sección 10 (18/28) - PRIORITARIO - Pipes propios de ángular.
 - [ ] Sección 11 (0/12)  -  PRIORITARIO - Pipes personalizados.
 - [x] Sección 12 (11/11) - PRIORITARIO - Heroes app - rutas hijas, lazyload.
 - [x] Sección 13 (22/22) - PRIORITARIO - Heroes app - Angular material & angular flex-layout

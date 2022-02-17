@@ -12,7 +12,7 @@ export class MuestraNombreComponentComponent implements OnInit, OnChanges{
   constructor() { }
   
   ngOnChanges(changes: SimpleChanges): void {
-    console.log(changes);
+    console.log(changes); 
   }
 
   ngOnInit(): void {
